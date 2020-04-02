@@ -1,0 +1,223 @@
+{
+    "systemIntent": {
+        "intent": "actions.intent.OPTION",
+        "data": {
+            "@type": "type.googleapis.com/google.actions.v2.OptionValueSpec",
+            "carouselSelect": {
+                "items": [
+                    {
+                        "optionInfo": {
+                            "key": "SELECTION_KEY_ONE",
+                            "synonyms": [
+                                "synonym 1",
+                                "synonym 2",
+                                "synonym 3"
+                            ]
+                        },
+                        "description": "This is a description of a carousel item.",
+                        "image": {
+                            "url": "https://via.placeholder.com/150",
+                            "accessibilityText": "Image alternate text"
+                        },
+                        "title": "Title of First Carousel Item"
+                    },
+                    {
+                        "optionInfo": {
+                            "key": "SELECTION_KEY_TWO",
+                            "synonyms": [
+                                "synonym 1",
+                                "synonym 2",
+                                "synonym 3"
+                            ]
+                        },
+                        "description": "This is a description of a carousel item.",
+                        "image": {
+                            "url": "https://via.placeholder.com/150",
+                            "accessibilityText": "Image alternate text"
+                        },
+                        "title": "Title of Second Carousel Item"
+                    },
+                    {
+                        "optionInfo": {
+                            "key": "SELECTION_KEY_THREE",
+                            "synonyms": [
+                                "synonym 1",
+                                "synonym 2",
+                                "synonym 3"
+                            ]
+                        },
+                        "description": "This is a description of a carousel item.",
+                        "image": {
+                            "url": "https://via.placeholder.com/150",
+                            "accessibilityText": "Image alternate text"
+                        },
+                        "title": "Title of Third Carousel Item"
+                    }
+                ]
+            }
+        }
+    },
+    "richResponse": {
+        "items": [
+            {
+                "simpleResponse": {
+                    "textToSpeech": "This is Actions",
+                    "displayText": "Simple Response"
+                }
+            },
+            {
+                "basicCard": {
+                    "title": "This is a title",
+                    "subtitle": "This is a subtitle",
+                    "formattedText": "This is a basic card.",
+                    "image": {
+                        "url": "https://via.placeholder.com/150",
+                        "accessibilityText": "Image alternate text"
+                    },
+                    "buttons": [
+                        {
+                            "title": "This is a button",
+                            "openUrlAction": {
+                                "url": "https://example.com/"
+                            }
+                        }
+                    ],
+                    "imageDisplayOptions": "CROPPED"
+                }
+            },
+            {
+                "mediaResponse": {
+                    "mediaType": "AUDIO",
+                    "mediaObjects": [
+                        {
+                            "contentUrl": "https://storage.googleapis.com/automotive-media/Jazz_In_Paris.mp3",
+                            "description": "A funky Jazz tune",
+                            "icon": {
+                                "url": "https://storage.googleapis.com/automotive-media/album_art.jpg",
+                                "accessibilityText": "Album cover of an ccean view"
+                            },
+                            "name": "Jazz in Paris"
+                        }
+                    ]
+                }
+            },
+            {
+                "tableCard": {
+                    "title": "Table Title",
+                    "subtitle": "Table Subtitle",
+                    "image": {
+                        "url": "https://via.placeholder.com/150",
+                        "accessibilityText": "Alt Text"
+                    },
+                    "rows": [
+                        {
+                            "cells": [
+                                {
+                                    "text": "row 1 item 1"
+                                },
+                                {
+                                    "text": "row 1 item 2"
+                                },
+                                {
+                                    "text": "row 1 item 3"
+                                }
+                            ],
+                            "dividerAfter": false
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "text": "row 2 item 1"
+                                },
+                                {
+                                    "text": "row 2 item 2"
+                                },
+                                {
+                                    "text": "row 2 item 3"
+                                }
+                            ],
+                            "dividerAfter": true
+                        },
+                        {
+                            "cells": [
+                                {
+                                    "text": "row 2 item 1"
+                                },
+                                {
+                                    "text": "row 2 item 2"
+                                },
+                                {
+                                    "text": "row 2 item 3"
+                                }
+                            ]
+                        }
+                    ],
+                    "columnProperties": [
+                        {
+                            "header": "header 1",
+                            "horizontalAlignment": "CENTER"
+                        },
+                        {
+                            "header": "header 2",
+                            "horizontalAlignment": "LEADING"
+                        },
+                        {
+                            "header": "header 3",
+                            "horizontalAlignment": "TRAILING"
+                        }
+                    ],
+                    "buttons": [
+                        {
+                            "title": "Button Text",
+                            "openUrlAction": {
+                                "url": "https://example.com"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "carouselBrowse": {
+                    "items": [
+                        {
+                            "title": "Title of item 1",
+                            "openUrlAction": {
+                                "url": "https://via.placeholder.com/150"
+                            },
+                            "description": "Description of item 1",
+                            "footer": "Item 1 footer",
+                            "image": {
+                                "url": "https://via.placeholder.com/150",
+                                "accessibilityText": "Image alternate text"
+                            }
+                        },
+                        {
+                            "title": "Google Assistant",
+                            "openUrlAction": {
+                                "url": "https://example.com"
+                            },
+                            "description": "Google Assistant on Android and iOS",
+                            "footer": "More information about the Google Assistant",
+                            "image": {
+                                "url": "https://via.placeholder.com/150",
+                                "accessibilityText": "Image alternate text"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "suggestions": [
+            {
+                "title": "More demos"
+            },
+            {
+                "title": "Suggestion"
+            }
+        ],
+        "linkOutSuggestion": {
+            "destinationName": "Suggestion Link",
+            "url": "https://example.com"
+        }
+    }
+}

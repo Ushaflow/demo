@@ -1,0 +1,65 @@
+{
+  "id": "758f8053-20ae-4d43-a22d-628ee2360f8f",
+  "name": "Media Demo",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "textToSpeech": "This is a media demo",
+          "ssml": "",
+          "displayText": ""
+        },
+        {
+          "type": "media_content",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "mediaType": "AUDIO",
+          "mediaObjects": [
+            {
+              "name": "Jazz in Paris",
+              "description": "A funky Jazz tune",
+              "largeImage": {
+                "url": "https://storage.googleapis.com/automotive-media/album_art.jpg",
+                "accessibilityText": "Album cover of an ccean view"
+              },
+              "contentUrl": "https://storage.googleapis.com/automotive-media/Jazz_In_Paris.mp3"
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "More demos"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

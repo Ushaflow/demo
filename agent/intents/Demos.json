@@ -1,0 +1,84 @@
+{
+  "id": "e13b6bea-bf6c-403e-9bae-da0f9a1c32d5",
+  "name": "Demos",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "items": [
+            {
+              "textToSpeech": "Alrighty! I suggested you some demos",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Here are some demos",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "You can check these demos",
+              "ssml": "",
+              "displayText": ""
+            },
+            {
+              "textToSpeech": "Some more demos",
+              "ssml": "",
+              "displayText": ""
+            }
+          ]
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "lang": "en",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Card"
+            },
+            {
+              "title": "List"
+            },
+            {
+              "title": "Carousel"
+            },
+            {
+              "title": "Webhook"
+            },
+            {
+              "title": "Actions on Google"
+            },
+            {
+              "title": "SSML"
+            },
+            {
+              "title": "Media"
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}
