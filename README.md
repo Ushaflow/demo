@@ -1,6 +1,6 @@
 ![](https://i.imgur.com/sQlE8H2.png)
 
-This is the chatbot used for demoing Ushaflow products
+This is the chatbot used for demoing Dialogflow capabilities used in Ushaflow project
 
-- [/agent](/agent) is exported Dialogflow Agent (you will need to `zip` it)
-- [/fulfillment](/fulfillment) for the fulfillment
+- [/agent](/agent) is the Dialogflow Agent (`zip` and import it in Dialogflow console)
+- [/fulfillment](/fulfillment) the fulfillment (deploy with `firebase deploy`)
