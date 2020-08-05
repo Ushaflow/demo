@@ -1,4 +1,4 @@
-![](https://i.imgur.com/sQlE8H2.png)
+![](assets/logo.png)
 
 This chatbot is used for demoing Dialogflow capabilities in Ushaflow projects
 
