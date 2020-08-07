@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Media</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Media" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Media-item" transform="translate(59.000000, 127.000000)" fill="#000000">
+            <g id="play_circle_filled-24px" transform="translate(137.000000, 0.000000)" fill-rule="nonzero">
+                <path d="M22.5,0 C10.08,0 0,10.08 0,22.5 C0,34.92 10.08,45 22.5,45 C34.92,45 45,34.92 45,22.5 C45,10.08 34.92,0 22.5,0 Z M18,30.375 L18,14.625 C18,13.7025 19.0575,13.1625 19.8,13.725 L30.3075,21.6 C30.915,22.05 30.915,22.95 30.3075,23.4 L19.8,31.275 C19.0575,31.8375 18,31.2975 18,30.375 Z" id="Shape"></path>
+            </g>
+            <rect id="Rectangle" x="-1.13686838e-13" y="9" width="107.445783" height="11.25" rx="5.625"></rect>
+            <rect id="Rectangle" x="1.63424829e-13" y="24.75" width="53.7228916" height="11.25" rx="5.625"></rect>
+        </g>
+        <g id="Media-item" transform="translate(59.000000, 183.000000)" fill="#000000">
+            <g id="play_circle_filled-24px" transform="translate(137.000000, 0.000000)" fill-rule="nonzero">
+                <path d="M22.5,0 C10.08,0 0,10.08 0,22.5 C0,34.92 10.08,45 22.5,45 C34.92,45 45,34.92 45,22.5 C45,10.08 34.92,0 22.5,0 Z M18,30.375 L18,14.625 C18,13.7025 19.0575,13.1625 19.8,13.725 L30.3075,21.6 C30.915,22.05 30.915,22.95 30.3075,23.4 L19.8,31.275 C19.0575,31.8375 18,31.2975 18,30.375 Z" id="Shape"></path>
+            </g>
+            <rect id="Rectangle" x="-1.13686838e-13" y="9" width="107.445783" height="11.25" rx="5.625"></rect>
+            <rect id="Rectangle" x="1.63424829e-13" y="24.75" width="53.7228916" height="11.25" rx="5.625"></rect>
+        </g>
+        <g id="Media-item" transform="translate(59.000000, 71.000000)" fill="#000000">
+            <g id="play_circle_filled-24px" transform="translate(137.000000, 0.000000)" fill-rule="nonzero">
+                <path d="M22.5,0 C10.08,0 0,10.08 0,22.5 C0,34.92 10.08,45 22.5,45 C34.92,45 45,34.92 45,22.5 C45,10.08 34.92,0 22.5,0 Z M18,30.375 L18,14.625 C18,13.7025 19.0575,13.1625 19.8,13.725 L30.3075,21.6 C30.915,22.05 30.915,22.95 30.3075,23.4 L19.8,31.275 C19.0575,31.8375 18,31.2975 18,30.375 Z" id="Shape"></path>
+            </g>
+            <rect id="Rectangle" x="-1.13686838e-13" y="9" width="107.445783" height="11.25" rx="5.625"></rect>
+            <rect id="Rectangle" x="1.63424829e-13" y="24.75" width="53.7228916" height="11.25" rx="5.625"></rect>
+        </g>
+    </g>
+</svg>

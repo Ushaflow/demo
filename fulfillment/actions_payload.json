@@ -14,12 +14,12 @@
                                 "synonym 3"
                             ]
                         },
-                        "description": "This is a description of a carousel item.",
+                        "description": "Description",
                         "image": {
-                            "url": "https://via.placeholder.com/150",
+                            "url": "https://via.placeholder.com/640x480",
                             "accessibilityText": "Image alternate text"
                         },
-                        "title": "Title of First Carousel Item"
+                        "title": "Title"
                     },
                     {
                         "optionInfo": {
@@ -30,12 +30,12 @@
                                 "synonym 3"
                             ]
                         },
-                        "description": "This is a description of a carousel item.",
+                        "description": "Description",
                         "image": {
-                            "url": "https://via.placeholder.com/150",
+                            "url": "https://via.placeholder.com/640x480",
                             "accessibilityText": "Image alternate text"
                         },
-                        "title": "Title of Second Carousel Item"
+                        "title": "Title"
                     },
                     {
                         "optionInfo": {
@@ -46,12 +46,12 @@
                                 "synonym 3"
                             ]
                         },
-                        "description": "This is a description of a carousel item.",
+                        "description": "Description.",
                         "image": {
-                            "url": "https://via.placeholder.com/150",
+                            "url": "https://via.placeholder.com/640x480",
                             "accessibilityText": "Image alternate text"
                         },
-                        "title": "Title of Third Carousel Item"
+                        "title": "Title"
                     }
                 ]
             }
@@ -61,22 +61,22 @@
         "items": [
             {
                 "simpleResponse": {
-                    "textToSpeech": "This is Actions",
+                    "textToSpeech": "This is Actions on Google",
                     "displayText": "Simple Response"
                 }
             },
             {
                 "basicCard": {
-                    "title": "This is a title",
-                    "subtitle": "This is a subtitle",
-                    "formattedText": "This is a basic card.",
+                    "title": "Title",
+                    "subtitle": "Subtitle",
+                    "formattedText": "Text",
                     "image": {
-                        "url": "https://via.placeholder.com/150",
+                        "url": "https://via.placeholder.com/640x480",
                         "accessibilityText": "Image alternate text"
                     },
                     "buttons": [
                         {
-                            "title": "This is a button",
+                            "title": "Link",
                             "openUrlAction": {
                                 "url": "https://example.com/"
                             }
@@ -103,11 +103,11 @@
             },
             {
                 "tableCard": {
-                    "title": "Table Title",
-                    "subtitle": "Table Subtitle",
+                    "title": "Title",
+                    "subtitle": "Subtitle",
                     "image": {
-                        "url": "https://via.placeholder.com/150",
-                        "accessibilityText": "Alt Text"
+                        "url": "https://via.placeholder.com/300",
+                        "accessibilityText": "Image alternate text"
                     },
                     "rows": [
                         {
@@ -152,23 +152,9 @@
                             ]
                         }
                     ],
-                    "columnProperties": [
-                        {
-                            "header": "header 1",
-                            "horizontalAlignment": "CENTER"
-                        },
-                        {
-                            "header": "header 2",
-                            "horizontalAlignment": "LEADING"
-                        },
-                        {
-                            "header": "header 3",
-                            "horizontalAlignment": "TRAILING"
-                        }
-                    ],
                     "buttons": [
                         {
-                            "title": "Button Text",
+                            "title": "Link",
                             "openUrlAction": {
                                 "url": "https://example.com"
                             }
@@ -180,26 +166,26 @@
                 "carouselBrowse": {
                     "items": [
                         {
-                            "title": "Title of item 1",
+                            "title": "Title",
                             "openUrlAction": {
-                                "url": "https://via.placeholder.com/150"
+                                "url": "https://example.com"
                             },
-                            "description": "Description of item 1",
-                            "footer": "Item 1 footer",
+                            "description": "Description",
+                            "footer": "Footer",
                             "image": {
-                                "url": "https://via.placeholder.com/150",
+                                "url": "https://via.placeholder.com/640x480",
                                 "accessibilityText": "Image alternate text"
                             }
                         },
                         {
-                            "title": "Google Assistant",
+                            "title": "Title",
                             "openUrlAction": {
                                 "url": "https://example.com"
                             },
-                            "description": "Google Assistant on Android and iOS",
-                            "footer": "More information about the Google Assistant",
+                            "description": "Description",
+                            "footer": "Footer",
                             "image": {
-                                "url": "https://via.placeholder.com/150",
+                                "url": "https://via.placeholder.com/640x480",
                                 "accessibilityText": "Image alternate text"
                             }
                         }
@@ -216,7 +202,7 @@
             }
         ],
         "linkOutSuggestion": {
-            "destinationName": "Suggestion Link",
+            "destinationName": "Suggestion link",
             "url": "https://example.com"
         }
     }

@@ -1,0 +1,107 @@
+{
+  "id": "19e618bc-ea2a-4132-8363-a6d44b44b01b",
+  "name": "Carousels",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Here is the carousel",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "carousel_card",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "Description",
+              "image": {
+                "url": "https://via.placeholder.com/640x480",
+                "accessibilityText": "Image text"
+              },
+              "optionInfo": {
+                "key": "option key 1",
+                "synonyms": []
+              },
+              "title": "Title",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Description",
+              "image": {},
+              "optionInfo": {
+                "key": "option key 2",
+                "synonyms": []
+              },
+              "title": "Title 2",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "",
+              "image": {},
+              "optionInfo": {
+                "key": "option key 3",
+                "synonyms": []
+              },
+              "title": "Title 3",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "More demos"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -13,53 +13,250 @@
         {
           "type": "simple_response",
           "platform": "google",
-          "lang": "en",
-          "condition": "",
-          "textToSpeech": "Welcome to the demo chatbot",
-          "ssml": "",
-          "displayText": ""
-        },
-        {
-          "type": "basic_card",
-          "platform": "google",
-          "lang": "en",
-          "condition": "",
-          "image": {
-            "url": "https://i.imgur.com/sQlE8H2.png",
-            "accessibilityText": "Image"
-          }
-        },
-        {
-          "type": "suggestion_chips",
-          "platform": "google",
-          "lang": "en",
-          "condition": "",
-          "suggestions": [
+          "title": "",
+          "textToSpeech": "",
+          "items": [
             {
-              "title": "See the demos"
+              "description": "",
+              "textToSpeech": "Hello and welcome to the demo chatbot",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
             }
-          ]
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "Below is the catalogue of demos to try out!",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "title": "Demos",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "Simple responses take the form of a chat bubble visually and use text-to-speech (TTS) or Speech Synthesis Markup Language (SSML) for sound",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Speech%20bubbles.svg",
+                "accessibilityText": "Speech bubbles thumbnail"
+              },
+              "optionInfo": {
+                "key": "bubbles",
+                "synonyms": []
+              },
+              "title": "Speech bubbles",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Use suggestion chips to hint at responses to continue or pivot the conversation",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Suggestions.svg",
+                "accessibilityText": "Suggestions thumbnail"
+              },
+              "optionInfo": {
+                "key": "suggestions",
+                "synonyms": []
+              },
+              "title": "Suggestions",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Use basic cards mainly for display purposes. They are designed to be concise, to present key (or summary) information to users, and to allow users to learn more if you choose (using a weblink)",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Cards.svg",
+                "accessibilityText": "Cards thumbnail"
+              },
+              "optionInfo": {
+                "key": "cards",
+                "synonyms": []
+              },
+              "title": "Cards",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "The carousel scrolls horizontally and allows for selecting one item. Compared to the list selector, it has large tiles-allowing for richer content",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Carousels.svg",
+                "accessibilityText": "Carousels thumbnail"
+              },
+              "optionInfo": {
+                "key": "carousels",
+                "synonyms": []
+              },
+              "title": "Carousels",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "The single-select list presents the user with a vertical list of multiple items and allows the user to select a single one",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Lists.svg",
+                "accessibilityText": "Lists thumbnail"
+              },
+              "optionInfo": {
+                "key": "lists",
+                "synonyms": []
+              },
+              "title": "Lists",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Table cards allow you to display tabular data in your response (for example, sports standings, election results, and flights)",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Tables.svg",
+                "accessibilityText": "Tables thumbnail"
+              },
+              "optionInfo": {
+                "key": "tables",
+                "synonyms": []
+              },
+              "title": "Tables",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Media responses let your Actions play audio content with a playback duration longer than the 240-second limit of SSML",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Media.svg",
+                "accessibilityText": "Media thumbnail"
+              },
+              "optionInfo": {
+                "key": "media",
+                "synonyms": []
+              },
+              "title": "Media",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Actions on Google selected demos",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Actions%20on%20Google.svg",
+                "accessibilityText": "Actions on Google thumbnail"
+              },
+              "optionInfo": {
+                "key": "actions",
+                "synonyms": []
+              },
+              "title": "Actions on Google",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Platform specific selected demos",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Platform%20specific.svg",
+                "accessibilityText": "Platforms thumbnail"
+              },
+              "optionInfo": {
+                "key": "platforms",
+                "synonyms": []
+              },
+              "title": "Platform specific",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Allow for more customization in your audio response by providing details on pauses, and audio formatting for acronyms, dates, times, abbreviations, or text that should be censored",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/SSML.svg",
+                "accessibilityText": "SSML thumbnail"
+              },
+              "optionInfo": {
+                "key": "ssml",
+                "synonyms": []
+              },
+              "title": "SSML",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Fulfillment defines the conversational interface for your Action to obtain user input and the logic to process the input and eventually fulfill the Action",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Webhooks.svg",
+                "accessibilityText": "Webhooks thumbnail"
+              },
+              "optionInfo": {
+                "key": "webhooks",
+                "synonyms": []
+              },
+              "title": "Webhooks (fulfillment)",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Knowledge connectors complement defined intents. They parse knowledge documents (for example, FAQs or articles) to find automated responses",
+              "image": {
+                "url": "https://raw.githubusercontent.com/Ushaflow/demo/master/assets/thumbs/Knowledge%20connectors.svg",
+                "accessibilityText": "Knowledge connectors thumbnail"
+              },
+              "optionInfo": {
+                "key": "do you know something?",
+                "synonyms": []
+              },
+              "title": "Knowledge connectors",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
         },
         {
           "type": "link_out_chip",
           "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "destinationName": "Demos on GitHub",
+          "url": "https://github.com/Ushaflow/demo",
           "lang": "en",
-          "condition": "",
-          "destinationName": "Contact us",
-          "url": "https://ushaflow.com/#contact"
+          "condition": ""
         },
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "ru",
-          "condition": "",
           "speech": [
             "Привет!",
             "Здравствуй!",
             "Добрый день!"
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

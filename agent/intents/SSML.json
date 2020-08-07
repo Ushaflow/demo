@@ -1,0 +1,73 @@
+{
+  "id": "bf130055-1867-400f-85f6-68a9c1da5a67",
+  "name": "SSML",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "displayText": "Here\u0027s the first SSML",
+              "footer": "",
+              "ssml": "\u003cspeak\u003e\n  Here are \u003csay-as interpret-as\u003d\"characters\"\u003eSSML\u003c/say-as\u003e samples.\n  I can pause \u003cbreak time\u003d\"3s\"/\u003e.\n  I can play a sound\n  \u003caudio src\u003d\"https://actions.google.com/sounds/v1/horror/aggressive_zombie_snarls.ogg\"\u003edidn\u0027t get your MP3 audio file\u003c/audio\u003e.\n  I can speak in cardinals. Your number is \u003csay-as interpret-as\u003d\"cardinal\"\u003e10\u003c/say-as\u003e.\n  Or I can speak in ordinals. You are \u003csay-as interpret-as\u003d\"ordinal\"\u003e10\u003c/say-as\u003e in line.\n  Or I can even speak in digits. The digits for ten are \u003csay-as interpret-as\u003d\"characters\"\u003e10\u003c/say-as\u003e.\n  I can also substitute phrases, like the \u003csub alias\u003d\"World Wide Web Consortium\"\u003eW3C\u003c/sub\u003e.\n  Finally, I can speak a paragraph with two sentences.\n  \u003cp\u003e\u003cs\u003eThis is sentence one.\u003c/s\u003e\u003cs\u003eThis is sentence two.\u003c/s\u003e\u003c/p\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "displayText": "Here is the second",
+              "footer": "",
+              "ssml": "\u003cspeak\u003e\n  Here is the second \u003csay-as interpret-as\u003d\"characters\"\u003eSSML\u003c/say-as\u003e\n\u003c/speak\u003e"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "More demos"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

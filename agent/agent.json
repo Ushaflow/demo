@@ -1,9 +1,10 @@
 {
-  "description": "Welcome to our demo agent, send \"Hi\" to experience the demos",
+  "description": "A feature- and component-focused demonstration of Dialogflow, say \"Hi\" to get started!",
   "language": "en",
   "shortDescription": "",
   "examples": "",
   "linkToDocs": "",
+  "displayName": "Demo",
   "activeAssistantAgents": [
     "smalltalk-domain-on"
   ],
@@ -43,17 +44,18 @@
     "cloudFunctionsInitialized": true
   },
   "isPrivate": true,
-  "customClassifierMode": "use.after",
   "mlMinConfidence": 0.3,
   "supportedLanguages": [
     "ru"
   ],
+  "enableOnePlatformApi": true,
   "onePlatformApiVersion": "v2beta1",
+  "secondaryKey": "af1b011083f44449bf9a085bcddb60e9",
   "analyzeQueryTextSentiment": false,
   "enabledKnowledgeBaseNames": [
-    "projects/dialogflow-web-v2/knowledgeBases/OTQ4OTMzNTEwMzUyMDc2ODAw"
+    "projects/dialogflow-web-v2/knowledgeBases/MzkyMTcwOTQ4NjY0OTExNDYyNA"
   ],
-  "knowledgeServiceConfidenceAdjustment": -0.4,
+  "knowledgeServiceConfidenceAdjustment": 0.0,
   "dialogBuilderMode": false,
   "baseActionPackagesUrl": ""
 }

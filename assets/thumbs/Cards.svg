@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Cards</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Cards" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Card" transform="translate(59.000000, 62.000000)" fill="#000000">
+            <rect id="Rectangle" x="0" y="0" width="182" height="86" rx="8"></rect>
+            <rect id="Rectangle" x="0" y="100" width="98" height="10" rx="5"></rect>
+            <rect id="Rectangle" x="0" y="114" width="49" height="10" rx="5"></rect>
+            <rect id="Rectangle" x="0" y="138" width="182" height="10" rx="5"></rect>
+            <rect id="Rectangle" x="0" y="152" width="182" height="10" rx="5"></rect>
+            <rect id="Rectangle" x="0" y="166" width="182" height="10" rx="5"></rect>
+        </g>
+    </g>
+</svg>

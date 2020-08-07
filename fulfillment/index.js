@@ -6,18 +6,18 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     const agent = new WebhookClient({ request, response })
 
     const welcome = agent => {
-        agent.add('It\'s webhook Demo Time now!')
+        agent.add('It\'s webhook time!')
         agent.add(new Card({
-            title: 'Im the card title',
-            text: 'Im the card text',
-            imageUrl: 'https://via.placeholder.com/150',
-            buttonText: 'Im the card button',
+            title: 'Title',
+            text: 'Text',
+            imageUrl: 'https://placehold.it/640x480',
+            buttonText: 'Button',
             buttonUrl: 'https://example.com/'
         }))
 
         agent.add(new Suggestion('More demos'))
-        agent.add(new Suggestion('Im the suggestion'))
-        agent.add(new Image('https://via.placeholder.com/150'))
+        agent.add(new Suggestion('Suggestion'))
+        agent.add(new Image('https://placehold.it/640x480'))
     }
 
     const actions = agent => {
@@ -31,7 +31,7 @@ exports.dialogflowFirebaseFulfillment = functions.https.onRequest((request, resp
     }
 
     const intentMap = new Map()
-    intentMap.set('Webhook Demo', welcome)
-    intentMap.set('Actions Demo', actions)
+    intentMap.set('Webhooks', welcome)
+    intentMap.set('Actions on Google', actions)
     agent.handleRequest(intentMap)
 })

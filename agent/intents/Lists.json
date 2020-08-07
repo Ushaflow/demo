@@ -1,0 +1,107 @@
+{
+  "id": "8e259698-0e51-4167-959c-523479f9c89c",
+  "name": "Lists",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "This is a list",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "title": "List title",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "Description",
+              "image": {
+                "url": "https://via.placeholder.com/350",
+                "accessibilityText": "Image"
+              },
+              "optionInfo": {
+                "key": "option key 1",
+                "synonyms": []
+              },
+              "title": "Title 1",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "Description",
+              "image": {},
+              "optionInfo": {
+                "key": "option key 2",
+                "synonyms": []
+              },
+              "title": "Title 2",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            },
+            {
+              "description": "",
+              "image": {},
+              "optionInfo": {
+                "key": "option key 3",
+                "synonyms": []
+              },
+              "title": "Title 3",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "More demos"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

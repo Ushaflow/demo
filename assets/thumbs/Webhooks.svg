@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 64 (93537) - https://sketch.com -->
+    <title>Webhooks</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Webhooks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M100,59.7780018 L100,156.780018 C100,162.707919 104.908994,167.55802 110.908875,167.55802 L132.726625,167.55802 L132.726625,244.620733 C132.726625,250.117514 140.035571,252.057554 142.871879,247.315233 L199.48894,151.391017 C203.743401,144.169756 198.507141,135.224014 190.107307,135.224014 L165.45325,135.224014 L192.616349,63.5503024 C195.343567,56.5446013 190.107307,49 182.471095,49 L110.908875,49 C104.908994,49 100,53.8501008 100,59.7780018 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

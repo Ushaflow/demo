@@ -1,58 +1,69 @@
 {
   "id": "a6342978-9b31-41dd-9ff7-883c98480ec8",
-  "name": "Card Demo",
+  "name": "Cards",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": "simple_response",
           "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "This is a card",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
           "lang": "en",
-          "condition": "",
-          "textToSpeech": "This is a card",
-          "ssml": "",
-          "displayText": ""
+          "condition": ""
         },
         {
           "type": "basic_card",
           "platform": "google",
-          "lang": "en",
-          "condition": "",
-          "title": "Title",
           "subtitle": "Subtitle",
-          "formattedText": "Text",
-          "image": {
-            "url": "https://via.placeholder.com/1500x800",
-            "accessibilityText": "Image"
-          },
+          "title": "Title",
           "buttons": [
             {
-              "title": "Weblink",
               "openUrlAction": {
                 "url": "https://google.com",
                 "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
-              }
+              },
+              "title": "Weblink"
             }
-          ]
+          ],
+          "textToSpeech": "",
+          "formattedText": "Text",
+          "image": {
+            "url": "https://via.placeholder.com/640x480",
+            "accessibilityText": "Image"
+          },
+          "lang": "en",
+          "condition": ""
         },
         {
           "type": "suggestion_chips",
           "platform": "google",
-          "lang": "en",
-          "condition": "",
+          "title": "",
+          "textToSpeech": "",
           "suggestions": [
             {
               "title": "More demos"
             }
-          ]
+          ],
+          "lang": "en",
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

@@ -1,0 +1,138 @@
+{
+  "id": "a1869612-9302-4787-887c-7cf6b38923b2",
+  "name": "Tables",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "simple_response",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "This is a table",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "table_card",
+          "platform": "google",
+          "subtitle": "Subtitle",
+          "title": "Title",
+          "buttons": [
+            {
+              "openUrlAction": {
+                "url": "https://example.com",
+                "urlTypeHint": "URL_TYPE_HINT_UNSPECIFIED"
+              },
+              "title": "Link"
+            }
+          ],
+          "textToSpeech": "",
+          "image": {
+            "url": "https://placehold.it/300",
+            "accessibilityText": "Image"
+          },
+          "lang": "en",
+          "columnProperties": [
+            {
+              "header": "Header 1",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Header 2",
+              "horizontalAlignment": "LEADING"
+            },
+            {
+              "header": "Header 3",
+              "horizontalAlignment": "LEADING"
+            }
+          ],
+          "rows": [
+            {
+              "cells": [
+                {
+                  "text": "Row 1"
+                },
+                {
+                  "text": "Row 1"
+                },
+                {
+                  "text": "Row 1"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Row 2"
+                },
+                {
+                  "text": "Row 2"
+                },
+                {
+                  "text": "Row 2"
+                }
+              ],
+              "dividerAfter": false
+            },
+            {
+              "cells": [
+                {
+                  "text": "Row 3"
+                },
+                {
+                  "text": "Row 3"
+                },
+                {
+                  "text": "Row 3"
+                }
+              ],
+              "dividerAfter": false
+            }
+          ],
+          "condition": ""
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "More demos"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

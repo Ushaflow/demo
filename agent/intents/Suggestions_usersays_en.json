@@ -1,0 +1,41 @@
+[
+  {
+    "id": "d9497fb5-b36f-46f3-b860-ee76ff729ee0",
+    "data": [
+      {
+        "text": "suggestions",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "76f1c04d-0384-4c83-a4cb-3d0e364713f6",
+    "data": [
+      {
+        "text": "suggestion",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  },
+  {
+    "id": "deb4c1c5-d6d0-4e97-a5b2-807c33c06185",
+    "data": [
+      {
+        "text": "suggestions demo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "en",
+    "updated": 0
+  }
+]

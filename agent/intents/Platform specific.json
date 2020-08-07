@@ -1,0 +1,159 @@
+{
+  "id": "b8c0d217-d7df-4973-aa2e-e842b938a884",
+  "name": "Platform specific",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "suggestions": [
+            {
+              "title": "More demos"
+            }
+          ],
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "4",
+          "title": "",
+          "payload": {
+            "richContent": [
+              [
+                {
+                  "options": [
+                    {
+                      "link": "https://example.com",
+                      "text": "Example link"
+                    },
+                    {
+                      "link": "https://cloud.google.com/dialogflow/docs",
+                      "text": "Docs"
+                    }
+                  ],
+                  "type": "chips"
+                },
+                {
+                  "type": "button",
+                  "text": "This is a button",
+                  "link": "https://example.com"
+                }
+              ]
+            ]
+          },
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": ""
+        },
+        {
+          "type": "18",
+          "platform": "rbm",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": "",
+          "cardOrientation": "HORIZONTAL",
+          "thumbnailImageAlignment": "LEFT",
+          "cardContent": {
+            "title": "Title",
+            "description": "Description",
+            "media": {
+              "fileUri": "https://via.placeholder.com/640x480",
+              "thumbnailUri": "https://via.placeholder.com/640x480"
+            },
+            "suggestions": [
+              {
+                "suggestedAction": {
+                  "text": "Text",
+                  "postbackData": "Postback",
+                  "openUriAction": {
+                    "uri": "https://example.com"
+                  }
+                }
+              },
+              {
+                "suggestedReply": {
+                  "text": "Text",
+                  "postbackData": "Postback"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "20",
+          "platform": "rbm",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "text": "Text",
+          "condition": "",
+          "rbmSuggestion": [
+            {
+              "suggestedReply": {
+                "text": "Text",
+                "postbackData": "Postback"
+              }
+            },
+            {
+              "suggestedAction": {
+                "text": "Text",
+                "postbackData": "Postback",
+                "openUriAction": {
+                  "uri": "https://example.com"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "19",
+          "platform": "rbm",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "en",
+          "condition": "",
+          "cardWidth": "SMALL",
+          "cardContents": [
+            {
+              "title": "Title",
+              "description": "Description",
+              "media": {
+                "fileUri": "https://via.placeholder.com/640x480",
+                "thumbnailUri": "https://via.placeholder.com/640x480",
+                "height": "MEDIUM"
+              }
+            },
+            {
+              "title": "Card title 2",
+              "description": "Card description",
+              "media": {}
+            }
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true,
+        "rbm": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

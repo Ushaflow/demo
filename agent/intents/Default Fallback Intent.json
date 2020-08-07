@@ -11,9 +11,10 @@
       "parameters": [],
       "messages": [
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "ru",
-          "condition": "",
           "speech": [
             "Не совсем понимаю, о чём ты.",
             "Вот эта последняя фраза мне не ясна.",
@@ -21,12 +22,14 @@
             "Можешь сказать то же самое другими словами?",
             "Вот сейчас я тебя совсем не понимаю.",
             "Попробуй, пожалуйста, выразить свою мысль по-другому."
-          ]
+          ],
+          "condition": ""
         },
         {
-          "type": 0,
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
           "speech": [
             "I didn\u0027t get that. Can you say it again?",
             "I missed what you said. What was that?",
@@ -40,10 +43,10 @@
             "Say that one more time?",
             "I didn\u0027t get that. Can you repeat?",
             "I missed that, say that again?"
-          ]
+          ],
+          "condition": ""
         }
       ],
-      "defaultResponsePlatforms": {},
       "speech": []
     }
   ],

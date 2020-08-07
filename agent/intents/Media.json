@@ -1,28 +1,38 @@
 {
   "id": "758f8053-20ae-4d43-a22d-628ee2360f8f",
-  "name": "Media Demo",
+  "name": "Media",
   "auto": true,
   "contexts": [],
   "responses": [
     {
       "resetContexts": false,
+      "action": "",
       "affectedContexts": [],
       "parameters": [],
       "messages": [
         {
           "type": "simple_response",
           "platform": "google",
+          "title": "",
+          "textToSpeech": "",
+          "items": [
+            {
+              "description": "",
+              "textToSpeech": "This is a media",
+              "displayText": "",
+              "footer": "",
+              "ssml": ""
+            }
+          ],
           "lang": "en",
-          "condition": "",
-          "textToSpeech": "This is a media demo",
-          "ssml": "",
-          "displayText": ""
+          "condition": ""
         },
         {
           "type": "media_content",
           "platform": "google",
+          "title": "",
+          "textToSpeech": "",
           "lang": "en",
-          "condition": "",
           "mediaType": "AUDIO",
           "mediaObjects": [
             {
@@ -34,18 +44,21 @@
               },
               "contentUrl": "https://storage.googleapis.com/automotive-media/Jazz_In_Paris.mp3"
             }
-          ]
+          ],
+          "condition": ""
         },
         {
           "type": "suggestion_chips",
           "platform": "google",
-          "lang": "en",
-          "condition": "",
+          "title": "",
+          "textToSpeech": "",
           "suggestions": [
             {
               "title": "More demos"
             }
-          ]
+          ],
+          "lang": "en",
+          "condition": ""
         }
       ],
       "defaultResponsePlatforms": {
